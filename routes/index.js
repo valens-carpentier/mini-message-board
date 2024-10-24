@@ -53,4 +53,6 @@ router.get('/message/:id', async function(req, res, next) {
   }
 });
 
+console.log("Pool in routes/index.js:", pool);
+
 module.exports = router;
